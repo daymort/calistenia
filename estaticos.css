@@ -1,0 +1,27 @@
+#estaticos{
+	margin-top:50px;
+	position:relative;
+}
+#estaticos img{
+	width:100%;
+	height:100%;
+}
+#estaticos  .definicion{
+	position:absolute;
+	bottom:6%;
+	color:#fff;
+	text-align: left;
+}
+#estaticos h3{
+	font-size:40px;
+}
+@media (min-width: 768px){
+	#estaticos{
+		height:300px;
+		overflow:hidden;
+	}
+	#estaticos img{
+		height:auto;
+		margin-top: -90px
+	}
+}

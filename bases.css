@@ -1,0 +1,120 @@
+#bases {
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#bases article{
+	margin:15px;
+
+}
+#bases img{
+	display:block;
+	width:100%;
+	max-width:280px;
+	margin:auto;
+}
+/* Imagenes */
+
+#pushups{
+	margin-top:50px;
+	position:relative;
+	text-align: center;
+}
+
+#pushups  .titlepush{
+	position:absolute;
+	bottom:39%;
+	color:#fff;
+	display:inline-block;
+	transform:translateX(-135px);
+	
+}
+#pushups h4{
+	font-size:25px;
+}
+
+#sentadillas{
+	margin-top:50px;
+	position:relative;
+	text-align: center;
+}
+
+#sentadillas .titlesenta{
+	position:absolute;
+	bottom:39%;
+	color:#fff;
+	display:inline-block;
+	transform:translateX(-135px);
+}
+#sentadillas h4{
+	font-size:25px;
+}
+#australianas{
+	margin-top:50px;
+	position:relative;
+	text-align: center;
+}
+
+#australianas .titleaustrali{
+	position:absolute;
+	bottom:39%;
+	color:#fff;
+	display:inline-block;
+	transform:translateX(-135px);
+}
+#australianas h4{
+	font-size:25px;
+}
+#fondos{
+	margin-top:50px;
+	position:relative;
+	text-align: center;
+}
+
+#fondos  .titlefondos{
+	position:absolute;
+	bottom:39%;
+	color:#fff;
+	display:inline-block;
+	transform:translateX(-135px);
+}
+#fondos h4{
+	font-size:25px;
+}
+#dominadas{
+	margin-top:50px;
+	position:relative;
+	text-align: center;
+}
+
+#dominadas  .titledomi{
+	position:absolute;
+	bottom:39%;
+	color:#fff;
+	display:inline-block;
+	transform:translateX(-135px);
+}
+#dominadas h4{
+	font-size:25px;
+}
+#dominadas .domimg{
+	height:186.656px;
+	object-fit: cover;
+	object-position: 50% 30%;
+}
+/* textos */
+#bases p{
+	margin-top: 20px;
+}
+@media(min-width: 768px){
+	p{
+		color:#900;
+	}
+	#bases .definpush,
+	#bases .definsenta,
+	#bases .definaustrali,
+	#bases .defindomi{
+		padding-left:30px;
+		padding-right:30px;
+	}
+}

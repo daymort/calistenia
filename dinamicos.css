@@ -1,0 +1,29 @@
+#dinamicos{
+	margin-top:50px;
+	position:relative;
+}
+#dinamicos img{
+	width:100%;
+	height:506.922px;
+	object-fit: cover;
+}
+#dinamicos  .definition{
+	position:absolute;
+	bottom:6%;
+	color:#fff;
+	text-align: left;
+}
+#dinamicos h3{
+	font-size:40px;
+}
+@media (min-width: 768px){
+	#dinamicos{
+		height:300px;
+		overflow:hidden;
+	}
+	#dinamicos img{
+		height:auto;
+		margin-top: -200px
+	}
+}
+

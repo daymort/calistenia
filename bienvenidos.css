@@ -1,0 +1,11 @@
+#bienvenidos article p{
+	color:#ddd;
+	text-decoration: none;
+}
+#bienvenidos {
+	display:flex;
+	text-align:left;
+	flex-wrap: wrap;
+	padding-right:10px;
+	padding-left:10px;
+}

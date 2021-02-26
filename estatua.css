@@ -1,0 +1,93 @@
+#estatua p{
+	margin-top:20px;
+}
+
+#estatua {
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#estatua article{
+	margin:15px;
+
+}
+#estatua img{
+	display:block;
+	width:100%;
+	max-width:280px;
+	margin:auto;
+}
+/*imagenes */
+#front{
+	margin-top:50px;
+	position:relative;
+	text-align: center;
+}
+
+#front .titlefront{
+	position:absolute;
+	bottom:35%;
+	color:#fff;
+	display:inline-block;
+	transform: translateX(-135px);
+}
+#front h4{
+	font-size:25px;
+}
+
+#back{
+	margin-top:50px;
+	position:relative;
+	text-align: center;
+}
+
+#back  .titleback{
+	position:absolute;
+	bottom:39%;
+	color:#fff;
+	display:inline-block;
+	transform: translateX(-135px);
+}
+#back h4{
+	font-size:25px;
+}
+#handstand{
+	margin-top:50px;
+	position:relative;
+	text-align: center;
+}
+
+#handstand  .titlehand{
+	position:absolute;
+	bottom:34%;
+	color:#fff;
+	display:inline-block;
+	transform: translateX(-135px);
+}
+#handstand h4{
+	font-size:25px;
+}
+#handstand .handimg{
+	height:186.656px;
+	object-fit: fill;
+}
+#vsit{
+	margin-top:50px;
+	position:relative;
+	text-align: center;
+}
+
+#vsit  .titlevsit{
+	position:absolute;
+	bottom:32%;
+	color:#fff;
+	display:inline-block;
+	transform: translateX(-135px);
+}
+#vsit h4{
+	font-size:25px;
+}
+#vsit .vsimg{
+	object-fit: contain;
+	width:280px 216.188px;
+}
